@@ -1,0 +1,848 @@
+{
+  "dependencies": {
+    "externalify": {
+      "version": "0.1.0",
+      "resolved": "https://registry.npmjs.org/externalify/-/externalify-0.1.0.tgz",
+      "from": "https://registry.npmjs.org/externalify/-/externalify-0.1.0.tgz",
+      "dependencies": {
+        "globo": {
+          "version": "1.0.2",
+          "resolved": "https://registry.npmjs.org/globo/-/globo-1.0.2.tgz",
+          "from": "https://registry.npmjs.org/globo/-/globo-1.0.2.tgz",
+          "dependencies": {
+            "accessory": {
+              "version": "1.0.1",
+              "resolved": "https://registry.npmjs.org/accessory/-/accessory-1.0.1.tgz",
+              "from": "https://registry.npmjs.org/accessory/-/accessory-1.0.1.tgz",
+              "dependencies": {
+                "dot-parts": {
+                  "version": "1.0.1",
+                  "resolved": "https://registry.npmjs.org/dot-parts/-/dot-parts-1.0.1.tgz",
+                  "from": "https://registry.npmjs.org/dot-parts/-/dot-parts-1.0.1.tgz"
+                }
+              }
+            },
+            "is-defined": {
+              "version": "1.0.0",
+              "resolved": "https://registry.npmjs.org/is-defined/-/is-defined-1.0.0.tgz",
+              "from": "https://registry.npmjs.org/is-defined/-/is-defined-1.0.0.tgz"
+            },
+            "ternary": {
+              "version": "1.0.0",
+              "resolved": "https://registry.npmjs.org/ternary/-/ternary-1.0.0.tgz",
+              "from": "https://registry.npmjs.org/ternary/-/ternary-1.0.0.tgz"
+            }
+          }
+        },
+        "map-obj": {
+          "version": "1.0.1",
+          "resolved": "http://registry.npm.taobao.org/map-obj/download/map-obj-1.0.1.tgz",
+          "from": "http://registry.npm.taobao.org/map-obj/download/map-obj-1.0.1.tgz"
+        },
+        "replace-require-functions": {
+          "version": "1.0.0",
+          "resolved": "https://registry.npmjs.org/replace-require-functions/-/replace-require-functions-1.0.0.tgz",
+          "from": "https://registry.npmjs.org/replace-require-functions/-/replace-require-functions-1.0.0.tgz",
+          "dependencies": {
+            "detective": {
+              "version": "4.1.1",
+              "resolved": "https://registry.npmjs.org/detective/-/detective-4.1.1.tgz",
+              "from": "https://registry.npmjs.org/detective/-/detective-4.1.1.tgz",
+              "dependencies": {
+                "acorn": {
+                  "version": "1.2.2",
+                  "resolved": "http://registry.npm.taobao.org/acorn/download/acorn-1.2.2.tgz",
+                  "from": "http://registry.npm.taobao.org/acorn/download/acorn-1.2.2.tgz"
+                },
+                "defined": {
+                  "version": "1.0.0",
+                  "resolved": "http://registry.npm.taobao.org/defined/download/defined-1.0.0.tgz",
+                  "from": "http://registry.npm.taobao.org/defined/download/defined-1.0.0.tgz"
+                },
+                "escodegen": {
+                  "version": "1.8.0",
+                  "resolved": "http://registry.npm.taobao.org/escodegen/download/escodegen-1.8.0.tgz",
+                  "from": "http://registry.npm.taobao.org/escodegen/download/escodegen-1.8.0.tgz",
+                  "dependencies": {
+                    "esprima": {
+                      "version": "2.7.2",
+                      "resolved": "https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz",
+                      "from": "https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz"
+                    },
+                    "estraverse": {
+                      "version": "1.9.3",
+                      "resolved": "http://registry.npm.taobao.org/estraverse/download/estraverse-1.9.3.tgz",
+                      "from": "http://registry.npm.taobao.org/estraverse/download/estraverse-1.9.3.tgz"
+                    },
+                    "esutils": {
+                      "version": "2.0.2",
+                      "resolved": "http://registry.npm.taobao.org/esutils/download/esutils-2.0.2.tgz",
+                      "from": "http://registry.npm.taobao.org/esutils/download/esutils-2.0.2.tgz"
+                    },
+                    "optionator": {
+                      "version": "0.8.1",
+                      "resolved": "http://registry.npm.taobao.org/optionator/download/optionator-0.8.1.tgz",
+                      "from": "http://registry.npm.taobao.org/optionator/download/optionator-0.8.1.tgz",
+                      "dependencies": {
+                        "deep-is": {
+                          "version": "0.1.3",
+                          "resolved": "http://registry.npm.taobao.org/deep-is/download/deep-is-0.1.3.tgz",
+                          "from": "http://registry.npm.taobao.org/deep-is/download/deep-is-0.1.3.tgz"
+                        },
+                        "fast-levenshtein": {
+                          "version": "1.1.3",
+                          "resolved": "http://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-1.1.3.tgz",
+                          "from": "http://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-1.1.3.tgz"
+                        },
+                        "levn": {
+                          "version": "0.3.0",
+                          "resolved": "http://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz",
+                          "from": "http://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz"
+                        },
+                        "prelude-ls": {
+                          "version": "1.1.2",
+                          "resolved": "http://registry.npm.taobao.org/prelude-ls/download/prelude-ls-1.1.2.tgz",
+                          "from": "http://registry.npm.taobao.org/prelude-ls/download/prelude-ls-1.1.2.tgz"
+                        },
+                        "type-check": {
+                          "version": "0.3.2",
+                          "resolved": "http://registry.npm.taobao.org/type-check/download/type-check-0.3.2.tgz",
+                          "from": "http://registry.npm.taobao.org/type-check/download/type-check-0.3.2.tgz"
+                        },
+                        "wordwrap": {
+                          "version": "1.0.0",
+                          "resolved": "http://registry.npm.taobao.org/wordwrap/download/wordwrap-1.0.0.tgz",
+                          "from": "http://registry.npm.taobao.org/wordwrap/download/wordwrap-1.0.0.tgz"
+                        }
+                      }
+                    },
+                    "source-map": {
+                      "version": "0.2.0",
+                      "resolved": "http://registry.npm.taobao.org/source-map/download/source-map-0.2.0.tgz",
+                      "from": "http://registry.npm.taobao.org/source-map/download/source-map-0.2.0.tgz",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0",
+                          "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz",
+                          "from": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "has-require": {
+              "version": "1.2.2",
+              "resolved": "https://registry.npmjs.org/has-require/-/has-require-1.2.2.tgz",
+              "from": "https://registry.npmjs.org/has-require/-/has-require-1.2.2.tgz",
+              "dependencies": {
+                "escape-string-regexp": {
+                  "version": "1.0.5",
+                  "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz",
+                  "from": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+                }
+              }
+            },
+            "patch-text": {
+              "version": "1.0.2",
+              "resolved": "https://registry.npmjs.org/patch-text/-/patch-text-1.0.2.tgz",
+              "from": "https://registry.npmjs.org/patch-text/-/patch-text-1.0.2.tgz"
+            },
+            "xtend": {
+              "version": "4.0.1",
+              "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz",
+              "from": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
+            }
+          }
+        },
+        "through2": {
+          "version": "0.4.2",
+          "resolved": "https://registry.npmjs.org/through2/-/through2-0.4.2.tgz",
+          "from": "https://registry.npmjs.org/through2/-/through2-0.4.2.tgz",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.0.33",
+              "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz",
+              "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.2",
+                  "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+                  "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
+                },
+                "inherits": {
+                  "version": "2.0.1",
+                  "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz",
+                  "from": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz"
+                },
+                "isarray": {
+                  "version": "0.0.1",
+                  "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
+                  "from": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+                },
+                "string_decoder": {
+                  "version": "0.10.31",
+                  "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+                  "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+                }
+              }
+            },
+            "xtend": {
+              "version": "2.1.2",
+              "resolved": "https://registry.npmjs.org/xtend/-/xtend-2.1.2.tgz",
+              "from": "https://registry.npmjs.org/xtend/-/xtend-2.1.2.tgz",
+              "dependencies": {
+                "object-keys": {
+                  "version": "0.4.0",
+                  "resolved": "https://registry.npmjs.org/object-keys/-/object-keys-0.4.0.tgz",
+                  "from": "https://registry.npmjs.org/object-keys/-/object-keys-0.4.0.tgz"
+                }
+              }
+            }
+          }
+        },
+        "transformify": {
+          "version": "0.1.2",
+          "resolved": "https://registry.npmjs.org/transformify/-/transformify-0.1.2.tgz",
+          "from": "https://registry.npmjs.org/transformify/-/transformify-0.1.2.tgz",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.1.13",
+              "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.13.tgz",
+              "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.13.tgz",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.2",
+                  "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+                  "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
+                },
+                "inherits": {
+                  "version": "2.0.1",
+                  "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz",
+                  "from": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz"
+                },
+                "isarray": {
+                  "version": "0.0.1",
+                  "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
+                  "from": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+                },
+                "string_decoder": {
+                  "version": "0.10.31",
+                  "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+                  "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "material-ui": {
+      "version": "0.14.0",
+      "resolved": "https://registry.npmjs.org/material-ui/-/material-ui-0.14.0.tgz",
+      "from": "https://registry.npmjs.org/material-ui/-/material-ui-0.14.0.tgz",
+      "dependencies": {
+        "inline-style-prefixer": {
+          "version": "0.5.4",
+          "resolved": "https://registry.npmjs.org/inline-style-prefixer/-/inline-style-prefixer-0.5.4.tgz",
+          "from": "https://registry.npmjs.org/inline-style-prefixer/-/inline-style-prefixer-0.5.4.tgz",
+          "dependencies": {
+            "bowser": {
+              "version": "1.0.0",
+              "resolved": "http://registry.npm.taobao.org/bowser/download/bowser-1.0.0.tgz",
+              "from": "http://registry.npm.taobao.org/bowser/download/bowser-1.0.0.tgz"
+            },
+            "caniuse-api": {
+              "version": "1.4.1",
+              "resolved": "https://registry.npmjs.org/caniuse-api/-/caniuse-api-1.4.1.tgz",
+              "from": "https://registry.npmjs.org/caniuse-api/-/caniuse-api-1.4.1.tgz",
+              "dependencies": {
+                "browserslist": {
+                  "version": "1.3.1",
+                  "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-1.3.1.tgz",
+                  "from": "https://registry.npmjs.org/browserslist/-/browserslist-1.3.1.tgz"
+                },
+                "caniuse-db": {
+                  "version": "1.0.30000448",
+                  "resolved": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000448.tgz",
+                  "from": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000448.tgz"
+                },
+                "lodash.memoize": {
+                  "version": "2.4.1",
+                  "resolved": "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-2.4.1.tgz",
+                  "from": "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-2.4.1.tgz",
+                  "dependencies": {
+                    "lodash._keyprefix": {
+                      "version": "2.4.2",
+                      "resolved": "https://registry.npmjs.org/lodash._keyprefix/-/lodash._keyprefix-2.4.2.tgz",
+                      "from": "https://registry.npmjs.org/lodash._keyprefix/-/lodash._keyprefix-2.4.2.tgz"
+                    },
+                    "lodash.isfunction": {
+                      "version": "2.4.1",
+                      "resolved": "https://registry.npmjs.org/lodash.isfunction/-/lodash.isfunction-2.4.1.tgz",
+                      "from": "https://registry.npmjs.org/lodash.isfunction/-/lodash.isfunction-2.4.1.tgz"
+                    }
+                  }
+                },
+                "lodash.uniq": {
+                  "version": "3.2.2",
+                  "resolved": "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-3.2.2.tgz",
+                  "from": "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-3.2.2.tgz",
+                  "dependencies": {
+                    "lodash._basecallback": {
+                      "version": "3.3.1",
+                      "resolved": "https://registry.npmjs.org/lodash._basecallback/-/lodash._basecallback-3.3.1.tgz",
+                      "from": "https://registry.npmjs.org/lodash._basecallback/-/lodash._basecallback-3.3.1.tgz",
+                      "dependencies": {
+                        "lodash._baseisequal": {
+                          "version": "3.0.7",
+                          "resolved": "https://registry.npmjs.org/lodash._baseisequal/-/lodash._baseisequal-3.0.7.tgz",
+                          "from": "https://registry.npmjs.org/lodash._baseisequal/-/lodash._baseisequal-3.0.7.tgz",
+                          "dependencies": {
+                            "lodash.istypedarray": {
+                              "version": "3.0.6",
+                              "resolved": "https://registry.npmjs.org/lodash.istypedarray/-/lodash.istypedarray-3.0.6.tgz",
+                              "from": "https://registry.npmjs.org/lodash.istypedarray/-/lodash.istypedarray-3.0.6.tgz"
+                            },
+                            "lodash.keys": {
+                              "version": "3.1.2",
+                              "resolved": "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz",
+                              "from": "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz",
+                              "dependencies": {
+                                "lodash.isarguments": {
+                                  "version": "3.0.8",
+                                  "resolved": "http://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.0.8.tgz",
+                                  "from": "http://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.0.8.tgz"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "lodash._bindcallback": {
+                          "version": "3.0.1",
+                          "resolved": "http://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz",
+                          "from": "http://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz"
+                        },
+                        "lodash.pairs": {
+                          "version": "3.0.1",
+                          "resolved": "https://registry.npmjs.org/lodash.pairs/-/lodash.pairs-3.0.1.tgz",
+                          "from": "https://registry.npmjs.org/lodash.pairs/-/lodash.pairs-3.0.1.tgz",
+                          "dependencies": {
+                            "lodash.keys": {
+                              "version": "3.1.2",
+                              "resolved": "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz",
+                              "from": "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz",
+                              "dependencies": {
+                                "lodash.isarguments": {
+                                  "version": "3.0.8",
+                                  "resolved": "http://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.0.8.tgz",
+                                  "from": "http://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.0.8.tgz"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "lodash._baseuniq": {
+                      "version": "3.0.3",
+                      "resolved": "https://registry.npmjs.org/lodash._baseuniq/-/lodash._baseuniq-3.0.3.tgz",
+                      "from": "https://registry.npmjs.org/lodash._baseuniq/-/lodash._baseuniq-3.0.3.tgz",
+                      "dependencies": {
+                        "lodash._baseindexof": {
+                          "version": "3.1.0",
+                          "resolved": "http://registry.npm.taobao.org/lodash._baseindexof/download/lodash._baseindexof-3.1.0.tgz",
+                          "from": "http://registry.npm.taobao.org/lodash._baseindexof/download/lodash._baseindexof-3.1.0.tgz"
+                        },
+                        "lodash._cacheindexof": {
+                          "version": "3.0.2",
+                          "resolved": "http://registry.npm.taobao.org/lodash._cacheindexof/download/lodash._cacheindexof-3.0.2.tgz",
+                          "from": "http://registry.npm.taobao.org/lodash._cacheindexof/download/lodash._cacheindexof-3.0.2.tgz"
+                        },
+                        "lodash._createcache": {
+                          "version": "3.1.2",
+                          "resolved": "http://registry.npm.taobao.org/lodash._createcache/download/lodash._createcache-3.1.2.tgz",
+                          "from": "http://registry.npm.taobao.org/lodash._createcache/download/lodash._createcache-3.1.2.tgz"
+                        }
+                      }
+                    },
+                    "lodash._getnative": {
+                      "version": "3.9.1",
+                      "resolved": "http://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz",
+                      "from": "http://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz"
+                    },
+                    "lodash._isiterateecall": {
+                      "version": "3.0.9",
+                      "resolved": "http://registry.npm.taobao.org/lodash._isiterateecall/download/lodash._isiterateecall-3.0.9.tgz",
+                      "from": "http://registry.npm.taobao.org/lodash._isiterateecall/download/lodash._isiterateecall-3.0.9.tgz"
+                    },
+                    "lodash.isarray": {
+                      "version": "3.0.4",
+                      "resolved": "http://registry.npm.taobao.org/lodash.isarray/download/lodash.isarray-3.0.4.tgz",
+                      "from": "http://registry.npm.taobao.org/lodash.isarray/download/lodash.isarray-3.0.4.tgz"
+                    }
+                  }
+                },
+                "shelljs": {
+                  "version": "0.5.3",
+                  "resolved": "http://registry.npm.taobao.org/shelljs/download/shelljs-0.5.3.tgz",
+                  "from": "http://registry.npm.taobao.org/shelljs/download/shelljs-0.5.3.tgz"
+                }
+              }
+            }
+          }
+        },
+        "lodash.merge": {
+          "version": "3.3.2",
+          "resolved": "http://registry.npm.taobao.org/lodash.merge/download/lodash.merge-3.3.2.tgz",
+          "from": "http://registry.npm.taobao.org/lodash.merge/download/lodash.merge-3.3.2.tgz",
+          "dependencies": {
+            "lodash._arraycopy": {
+              "version": "3.0.0",
+              "resolved": "http://registry.npm.taobao.org/lodash._arraycopy/download/lodash._arraycopy-3.0.0.tgz",
+              "from": "http://registry.npm.taobao.org/lodash._arraycopy/download/lodash._arraycopy-3.0.0.tgz"
+            },
+            "lodash._arrayeach": {
+              "version": "3.0.0",
+              "resolved": "http://registry.npm.taobao.org/lodash._arrayeach/download/lodash._arrayeach-3.0.0.tgz",
+              "from": "http://registry.npm.taobao.org/lodash._arrayeach/download/lodash._arrayeach-3.0.0.tgz"
+            },
+            "lodash._createassigner": {
+              "version": "3.1.1",
+              "resolved": "http://registry.npm.taobao.org/lodash._createassigner/download/lodash._createassigner-3.1.1.tgz",
+              "from": "http://registry.npm.taobao.org/lodash._createassigner/download/lodash._createassigner-3.1.1.tgz",
+              "dependencies": {
+                "lodash._bindcallback": {
+                  "version": "3.0.1",
+                  "resolved": "http://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz",
+                  "from": "http://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz"
+                },
+                "lodash._isiterateecall": {
+                  "version": "3.0.9",
+                  "resolved": "http://registry.npm.taobao.org/lodash._isiterateecall/download/lodash._isiterateecall-3.0.9.tgz",
+                  "from": "http://registry.npm.taobao.org/lodash._isiterateecall/download/lodash._isiterateecall-3.0.9.tgz"
+                },
+                "lodash.restparam": {
+                  "version": "3.6.1",
+                  "resolved": "http://registry.npm.taobao.org/lodash.restparam/download/lodash.restparam-3.6.1.tgz",
+                  "from": "http://registry.npm.taobao.org/lodash.restparam/download/lodash.restparam-3.6.1.tgz"
+                }
+              }
+            },
+            "lodash._getnative": {
+              "version": "3.9.1",
+              "resolved": "http://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz",
+              "from": "http://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz"
+            },
+            "lodash.isarguments": {
+              "version": "3.0.8",
+              "resolved": "http://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.0.8.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.0.8.tgz"
+            },
+            "lodash.isarray": {
+              "version": "3.0.4",
+              "resolved": "http://registry.npm.taobao.org/lodash.isarray/download/lodash.isarray-3.0.4.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.isarray/download/lodash.isarray-3.0.4.tgz"
+            },
+            "lodash.isplainobject": {
+              "version": "3.2.0",
+              "resolved": "http://registry.npm.taobao.org/lodash.isplainobject/download/lodash.isplainobject-3.2.0.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.isplainobject/download/lodash.isplainobject-3.2.0.tgz",
+              "dependencies": {
+                "lodash._basefor": {
+                  "version": "3.0.3",
+                  "resolved": "http://registry.npm.taobao.org/lodash._basefor/download/lodash._basefor-3.0.3.tgz",
+                  "from": "http://registry.npm.taobao.org/lodash._basefor/download/lodash._basefor-3.0.3.tgz"
+                }
+              }
+            },
+            "lodash.istypedarray": {
+              "version": "3.0.6",
+              "resolved": "https://registry.npmjs.org/lodash.istypedarray/-/lodash.istypedarray-3.0.6.tgz",
+              "from": "https://registry.npmjs.org/lodash.istypedarray/-/lodash.istypedarray-3.0.6.tgz"
+            },
+            "lodash.keys": {
+              "version": "3.1.2",
+              "resolved": "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz"
+            },
+            "lodash.keysin": {
+              "version": "3.0.8",
+              "resolved": "http://registry.npm.taobao.org/lodash.keysin/download/lodash.keysin-3.0.8.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.keysin/download/lodash.keysin-3.0.8.tgz"
+            },
+            "lodash.toplainobject": {
+              "version": "3.0.0",
+              "resolved": "http://registry.npm.taobao.org/lodash.toplainobject/download/lodash.toplainobject-3.0.0.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.toplainobject/download/lodash.toplainobject-3.0.0.tgz",
+              "dependencies": {
+                "lodash._basecopy": {
+                  "version": "3.0.1",
+                  "resolved": "http://registry.npm.taobao.org/lodash._basecopy/download/lodash._basecopy-3.0.1.tgz",
+                  "from": "http://registry.npm.taobao.org/lodash._basecopy/download/lodash._basecopy-3.0.1.tgz"
+                }
+              }
+            }
+          }
+        },
+        "lodash.throttle": {
+          "version": "3.0.4",
+          "resolved": "http://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-3.0.4.tgz",
+          "from": "http://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-3.0.4.tgz",
+          "dependencies": {
+            "lodash.debounce": {
+              "version": "3.1.1",
+              "resolved": "http://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-3.1.1.tgz",
+              "from": "http://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-3.1.1.tgz",
+              "dependencies": {
+                "lodash._getnative": {
+                  "version": "3.9.1",
+                  "resolved": "http://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz",
+                  "from": "http://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz"
+                }
+              }
+            }
+          }
+        },
+        "react": {
+          "version": "0.14.8",
+          "resolved": "http://registry.npm.taobao.org/react/download/react-0.14.8.tgz",
+          "from": "http://registry.npm.taobao.org/react/download/react-0.14.8.tgz",
+          "dependencies": {
+            "envify": {
+              "version": "3.4.0",
+              "resolved": "http://registry.npm.taobao.org/envify/download/envify-3.4.0.tgz",
+              "from": "http://registry.npm.taobao.org/envify/download/envify-3.4.0.tgz",
+              "dependencies": {
+                "jstransform": {
+                  "version": "10.1.0",
+                  "resolved": "http://registry.npm.taobao.org/jstransform/download/jstransform-10.1.0.tgz",
+                  "from": "http://registry.npm.taobao.org/jstransform/download/jstransform-10.1.0.tgz",
+                  "dependencies": {
+                    "base62": {
+                      "version": "0.1.1",
+                      "resolved": "https://registry.npmjs.org/base62/-/base62-0.1.1.tgz",
+                      "from": "https://registry.npmjs.org/base62/-/base62-0.1.1.tgz"
+                    },
+                    "esprima-fb": {
+                      "version": "13001.1001.0-dev-harmony-fb",
+                      "resolved": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz",
+                      "from": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz"
+                    },
+                    "source-map": {
+                      "version": "0.1.31",
+                      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz",
+                      "from": "https://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0",
+                          "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz",
+                          "from": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz"
+                        }
+                      }
+                    }
+                  }
+                },
+                "through": {
+                  "version": "2.3.8",
+                  "resolved": "http://registry.npm.taobao.org/through/download/through-2.3.8.tgz",
+                  "from": "http://registry.npm.taobao.org/through/download/through-2.3.8.tgz"
+                }
+              }
+            },
+            "fbjs": {
+              "version": "0.6.1",
+              "resolved": "http://registry.npm.taobao.org/fbjs/download/fbjs-0.6.1.tgz",
+              "from": "http://registry.npm.taobao.org/fbjs/download/fbjs-0.6.1.tgz",
+              "dependencies": {
+                "core-js": {
+                  "version": "1.2.6",
+                  "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz",
+                  "from": "https://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz"
+                },
+                "loose-envify": {
+                  "version": "1.1.0",
+                  "resolved": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+                  "from": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+                  "dependencies": {
+                    "js-tokens": {
+                      "version": "1.0.3",
+                      "resolved": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz",
+                      "from": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz"
+                    }
+                  }
+                },
+                "promise": {
+                  "version": "7.1.1",
+                  "resolved": "http://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+                  "from": "http://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+                  "dependencies": {
+                    "asap": {
+                      "version": "2.0.3",
+                      "resolved": "http://registry.npm.taobao.org/asap/download/asap-2.0.3.tgz",
+                      "from": "http://registry.npm.taobao.org/asap/download/asap-2.0.3.tgz"
+                    }
+                  }
+                },
+                "ua-parser-js": {
+                  "version": "0.7.10",
+                  "resolved": "http://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz",
+                  "from": "http://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz"
+                },
+                "whatwg-fetch": {
+                  "version": "0.9.0",
+                  "resolved": "http://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz",
+                  "from": "http://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz"
+                }
+              }
+            }
+          }
+        },
+        "react-addons-create-fragment": {
+          "version": "0.14.8",
+          "resolved": "https://registry.npmjs.org/react-addons-create-fragment/-/react-addons-create-fragment-0.14.8.tgz",
+          "from": "https://registry.npmjs.org/react-addons-create-fragment/-/react-addons-create-fragment-0.14.8.tgz"
+        },
+        "react-addons-pure-render-mixin": {
+          "version": "0.14.8",
+          "resolved": "https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-0.14.8.tgz",
+          "from": "https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-0.14.8.tgz"
+        },
+        "react-addons-transition-group": {
+          "version": "0.14.8",
+          "resolved": "https://registry.npmjs.org/react-addons-transition-group/-/react-addons-transition-group-0.14.8.tgz",
+          "from": "https://registry.npmjs.org/react-addons-transition-group/-/react-addons-transition-group-0.14.8.tgz"
+        },
+        "react-addons-update": {
+          "version": "0.14.8",
+          "resolved": "https://registry.npmjs.org/react-addons-update/-/react-addons-update-0.14.8.tgz",
+          "from": "https://registry.npmjs.org/react-addons-update/-/react-addons-update-0.14.8.tgz"
+        },
+        "warning": {
+          "version": "2.1.0",
+          "resolved": "http://registry.npm.taobao.org/warning/download/warning-2.1.0.tgz",
+          "from": "http://registry.npm.taobao.org/warning/download/warning-2.1.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "1.1.0",
+              "resolved": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "from": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "1.0.3",
+                  "resolved": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz",
+                  "from": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react": {
+      "version": "0.14.8",
+      "resolved": "http://registry.npm.taobao.org/react/download/react-0.14.8.tgz",
+      "from": "react@>=0.14.0 <0.15.0",
+      "dependencies": {
+        "envify": {
+          "version": "3.4.0",
+          "resolved": "http://registry.npm.taobao.org/envify/download/envify-3.4.0.tgz",
+          "from": "envify@>=3.0.0 <4.0.0",
+          "dependencies": {
+            "jstransform": {
+              "version": "10.1.0",
+              "resolved": "http://registry.npm.taobao.org/jstransform/download/jstransform-10.1.0.tgz",
+              "from": "jstransform@>=10.0.1 <11.0.0",
+              "dependencies": {
+                "base62": {
+                  "version": "0.1.1",
+                  "resolved": "https://registry.npmjs.org/base62/-/base62-0.1.1.tgz",
+                  "from": "base62@0.1.1"
+                },
+                "esprima-fb": {
+                  "version": "13001.1001.0-dev-harmony-fb",
+                  "resolved": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz",
+                  "from": "esprima-fb@13001.1001.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.31",
+                  "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz",
+                  "from": "source-map@0.1.31",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "1.0.0",
+                      "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz",
+                      "from": "amdefine@>=0.0.4"
+                    }
+                  }
+                }
+              }
+            },
+            "through": {
+              "version": "2.3.8",
+              "resolved": "http://registry.npm.taobao.org/through/download/through-2.3.8.tgz",
+              "from": "through@>=2.3.4 <2.4.0"
+            }
+          }
+        },
+        "fbjs": {
+          "version": "0.6.1",
+          "resolved": "http://registry.npm.taobao.org/fbjs/download/fbjs-0.6.1.tgz",
+          "from": "fbjs@>=0.6.1 <0.7.0",
+          "dependencies": {
+            "core-js": {
+              "version": "1.2.6",
+              "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz",
+              "from": "core-js@>=1.0.0 <2.0.0"
+            },
+            "loose-envify": {
+              "version": "1.1.0",
+              "resolved": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "from": "loose-envify@>=1.0.0 <2.0.0",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "1.0.3",
+                  "resolved": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz",
+                  "from": "js-tokens@>=1.0.1 <2.0.0"
+                }
+              }
+            },
+            "promise": {
+              "version": "7.1.1",
+              "resolved": "http://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+              "from": "promise@>=7.0.3 <8.0.0",
+              "dependencies": {
+                "asap": {
+                  "version": "2.0.3",
+                  "resolved": "http://registry.npm.taobao.org/asap/download/asap-2.0.3.tgz",
+                  "from": "asap@>=2.0.3 <2.1.0"
+                }
+              }
+            },
+            "ua-parser-js": {
+              "version": "0.7.10",
+              "resolved": "http://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz",
+              "from": "ua-parser-js@>=0.7.9 <0.8.0"
+            },
+            "whatwg-fetch": {
+              "version": "0.9.0",
+              "resolved": "http://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz",
+              "from": "whatwg-fetch@>=0.9.0 <0.10.0"
+            }
+          }
+        }
+      }
+    },
+    "react-dom": {
+      "version": "0.14.8",
+      "resolved": "http://registry.npm.taobao.org/react-dom/download/react-dom-0.14.8.tgz",
+      "from": "react-dom@>=0.14.0 <0.15.0"
+    },
+    "react-router": {
+      "version": "2.0.0-rc4",
+      "resolved": "https://registry.npmjs.org/react-router/-/react-router-2.0.0-rc4.tgz",
+      "from": "https://registry.npmjs.org/react-router/-/react-router-2.0.0-rc4.tgz",
+      "dependencies": {
+        "history": {
+          "version": "1.17.0",
+          "resolved": "https://registry.npmjs.org/history/-/history-1.17.0.tgz",
+          "from": "https://registry.npmjs.org/history/-/history-1.17.0.tgz",
+          "dependencies": {
+            "deep-equal": {
+              "version": "1.0.1",
+              "resolved": "http://registry.npm.taobao.org/deep-equal/download/deep-equal-1.0.1.tgz",
+              "from": "http://registry.npm.taobao.org/deep-equal/download/deep-equal-1.0.1.tgz"
+            },
+            "query-string": {
+              "version": "3.0.3",
+              "resolved": "http://registry.npm.taobao.org/query-string/download/query-string-3.0.3.tgz",
+              "from": "http://registry.npm.taobao.org/query-string/download/query-string-3.0.3.tgz",
+              "dependencies": {
+                "strict-uri-encode": {
+                  "version": "1.1.0",
+                  "resolved": "http://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-1.1.0.tgz",
+                  "from": "http://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-1.1.0.tgz"
+                }
+              }
+            }
+          }
+        },
+        "invariant": {
+          "version": "2.2.1",
+          "resolved": "http://registry.npm.taobao.org/invariant/download/invariant-2.2.1.tgz",
+          "from": "http://registry.npm.taobao.org/invariant/download/invariant-2.2.1.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "1.1.0",
+              "resolved": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "from": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "1.0.3",
+                  "resolved": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz",
+                  "from": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz"
+                }
+              }
+            }
+          }
+        },
+        "warning": {
+          "version": "2.1.0",
+          "resolved": "http://registry.npm.taobao.org/warning/download/warning-2.1.0.tgz",
+          "from": "http://registry.npm.taobao.org/warning/download/warning-2.1.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "1.1.0",
+              "resolved": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "from": "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "1.0.3",
+                  "resolved": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz",
+                  "from": "http://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.3.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react-tap-event-plugin": {
+      "version": "0.2.1",
+      "resolved": "https://registry.npmjs.org/react-tap-event-plugin/-/react-tap-event-plugin-0.2.1.tgz",
+      "from": "https://registry.npmjs.org/react-tap-event-plugin/-/react-tap-event-plugin-0.2.1.tgz",
+      "dependencies": {
+        "fbjs": {
+          "version": "0.2.1",
+          "resolved": "http://registry.npm.taobao.org/fbjs/download/fbjs-0.2.1.tgz",
+          "from": "http://registry.npm.taobao.org/fbjs/download/fbjs-0.2.1.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "1.2.6",
+              "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz",
+              "from": "https://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz"
+            },
+            "promise": {
+              "version": "7.1.1",
+              "resolved": "http://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+              "from": "http://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+              "dependencies": {
+                "asap": {
+                  "version": "2.0.3",
+                  "resolved": "http://registry.npm.taobao.org/asap/download/asap-2.0.3.tgz",
+                  "from": "http://registry.npm.taobao.org/asap/download/asap-2.0.3.tgz"
+                }
+              }
+            },
+            "whatwg-fetch": {
+              "version": "0.9.0",
+              "resolved": "http://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz",
+              "from": "http://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
