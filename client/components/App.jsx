@@ -1,4 +1,4 @@
-const { Link } = ReactRouter;
+const { AppBar } = mui;
 App = React.createClass({
   mixins: [ReactMeteorData],
 
